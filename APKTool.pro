@@ -11,10 +11,8 @@ HEADERS += \
     widget.h
 
 QMAKE_CXXFLAGS += -std=c++17
-<<<<<<< HEAD
 QMAKE_LFLAGS += -fno-lto   # 🔥 这一行禁用 LTO，makepkg 立刻成功
-=======
 QMAKE_CXXFLAGS += -fno-lto
 QMAKE_CFLAGS   += -fno-lto
 QMAKE_LFLAGS   += -fno-lto
->>>>>>> 893bbd77098796afc831efef531b21f8c18caf8a
+

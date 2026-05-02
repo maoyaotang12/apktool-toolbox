@@ -36,7 +36,8 @@ build() {
 package() {
     install -Dm755 $srcdir/$pkgname/apktool-toolbox "$pkgdir/usr/bin/apktool-toolbox"
 
-    install -Dm644 $srcdir/$pkgname/apktool-toolbox.png "$pkgdir/usr/share/icons/hicolor/256x256/apps/apktool-toolbox.png"
+    install -Dm644 $srcdir/$pkgname/apktool-toolbox.svg "$pkgdir/usr/share/icons/hicolor/scalable/apps/apktool-toolbox.svg"
+    install -Dm644 $srcdir/$pkgname/apktool-toolbox.png "$pkgdir/usr/share/pixmaps/apktool-toolbox.png"
 
     install -Dm644 $srcdir/$pkgname/apktool-toolbox.desktop "$pkgdir/usr/share/applications/apktool-toolbox.desktop"
     install -D -m644 $srcdir/$pkgname/LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"

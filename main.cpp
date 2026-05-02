@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     // ========== 设置窗口图标 + 任务栏图标 ==========
-    a.setWindowIcon(QIcon("apktool-toolbox"));
+    a.setWindowIcon(QIcon("apktool-toolbox.png"));
 
     // ========== 自动同步系统主题 ==========
     auto syncTheme = [&]() {
