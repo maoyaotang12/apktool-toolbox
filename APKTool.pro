@@ -1,6 +1,6 @@
 QT += core gui widgets
 
-TARGET = APKTool
+TARGET = apktool-toolbox
 TEMPLATE = app
 
 SOURCES += \
