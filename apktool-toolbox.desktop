@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=APK全能工具箱
+Name[zh_CN]=APK全能工具箱
+Comment=APK解包打包、签名查壳、ZIP刷机包签名、ADB设备管理
+Exec=apktool-toolbox
+Icon=apktool-toolbox
+Terminal=false
+Type=Application
+Categories=Development;Utility;Qt;
+StartupWMClass=APKTool
+Keywords=apk;android;sign;unpack;pack;adb;
