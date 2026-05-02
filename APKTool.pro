@@ -1,4 +1,4 @@
-QT += core gui widgets
+QT       += core gui widgets
 
 TARGET = apktool-toolbox
 TEMPLATE = app
@@ -11,4 +11,6 @@ HEADERS += \
     widget.h
 
 QMAKE_CXXFLAGS += -std=c++17
-QMAKE_LFLAGS += -fno-lto
+QMAKE_CXXFLAGS += -fno-lto
+QMAKE_CFLAGS   += -fno-lto
+QMAKE_LFLAGS   += -fno-lto
