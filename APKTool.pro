@@ -11,3 +11,4 @@ HEADERS += \
     widget.h
 
 QMAKE_CXXFLAGS += -std=c++17
+QMAKE_LFLAGS += -fno-lto
